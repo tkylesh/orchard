@@ -1,1 +1,4 @@
-console.log('main.js');
+/*global$*/
+'use strict';
+const outputDiv =$("#output");
+console.log('output', outputDiv);

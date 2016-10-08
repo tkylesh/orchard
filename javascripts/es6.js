@@ -1,110 +1,111 @@
-console.log('es6.js');
-//const
-//const are variable that cannot be reassigned
-const a = 8;
-console.log('a',a);
-// a=12;
-console.log('a2',const outputDiv = $('#output');
+// console.log('es6.js');
+// //const
+// //const are variable that cannot be reassigned
+// const a = 8;
+// console.log('a',a);
+// // a=12;
+// // console.log('a2',const outputDiv = $('#output');
 
-//let
-//is reassignable
-let b=8;
-console.log('b',b);
-b=12;
-console.log('b2',b);
+// //let
+// //is reassignable
+// let b=8;
+// console.log('b',b);
+// b=12;
+// console.log('b2',b);
 
-function varTest(){
-	var x=1;
-	if(true){
-		var x=2;
-		console.log(x);
-	}
-	console.log(x);
-}
+// function varTest(){
+// 	var x=1;
+// 	if(true){
+// 		var x=2;
+// 		console.log(x);
+// 	}
+// 	console.log(x);
+// }
 
-function letTest(){
-	let y = 1;
-	if(true) {
-		let y = 12;
-		console.log('inside if', y);
-	}
-	console.log('outside if', y);
-}
+// function letTest(){
+// 	let y = 1;
+// 	if(true) {
+// 		let y = 12;
+// 		console.log('inside if', y);
+// 	}
+// 	console.log('outside if', y);
+// }
 
-//arrow functions
-var sum = function(){
-	let a =1, b=2;
-	return a+b;
-}
-console.log("hardcoded sum in ES5", sum());
-var sum = () => {
+// //arrow functions
+// var sum = function(){
+// 	let a =1, b=2;
+// 	return a+b;
+// }
+// console.log("hardcoded sum in ES5", sum());
+// var sum = () => {
 
-}
+// }
 
-var sum2 = () {
-	let a=1, b=2;
-	return a+b;
-}
+// var sum2 = () => {
+// 	let a=1, b=2;
+// 	return a+b;
+// }
 
-console.log("hardcoded sum in ES6", sum2());
-
-
-var reflect = function(value){
-	return value;
-}
-console.log("reflect in ES5", reflect("Es5 is so yesterdy"));
+// console.log("hardcoded sum in ES6", sum2());
 
 
-var reflect2 = (value) => {
-	return value;
-}
+// var reflect = function(value){
+// 	return value;
+// }
+// console.log("reflect in ES5", reflect("Es5 is so yesterdy"));
 
-console.log("reflect in ES6", reflect2('Es6 is the new hotness'));
 
-var realSum = function(num1, num2){
-	return num1+num2;
-}
-console.log("realsum ES5", realSum(2,3));
+// var reflect2 = (value) => {
+// 	return value;
+// }
 
-var realSum = (num1,num2) => {
-	return num1+num2;
-}
+// console.log("reflect in ES6", reflect2('Es6 is the new hotness'));
 
-console.log("realsum ES6", realSum2(5,4));
+// var realSum = function(num1, num2){
+// 	return num1+num2;
+// }
+// console.log("realsum ES5", realSum(2,3));
 
-//string templates
-let m = "biteme";
-console.log("m",m);
-let r = `hello my name is ${m}`;
-//property shorthand
-// object literal property shorthand
-let wow = "Hi there", es6="ES6", numNum = ()=>{console.log('howdy')};
+// var realSum2 = (num1,num2) => {
+// 	return num1+num2;
+// }
 
-let myOldObject = {
-	wow:wow,
-	es6:es6,
-	numNum:numNum
-};
-console.log('myOldObject',myOldObject);
+// console.log("realsum ES6", realSum2(5,4));
 
-let myNewObject = {
-	wow, es6, numNum;
-}
+// //string templates
+// let m = "biteme";
+// console.log("m",m);
+// let r = `hello my name is ${m}`;
+// //property shorthand
+// // object literal property shorthand
+// let wow = "Hi there", es6="ES6", numNum = ()=>{console.log('howdy')};
 
-console.log('myNewObject',myNewObject);
+// let myOldObject = {
+// 	wow:wow,
+// 	es6:es6,
+// 	numNum:numNum
+// };
+// console.log('myOldObject',myOldObject);
 
-//method properties
-var e5Obj = {
-	foo: function(){console.log('foo')},
-	bar: function(){console.log('foo')}
-}
+// let myNewObject = {
+// 	wow, 
+// 	es6, 
+// 	numNum
+// };
 
-console.log(e5Obj);
+// console.log('myNewObject',myNewObject);
 
-var Es6Obj = {
-	foo() {console.log('foo')},
-	bar() {console.log('bar')}
-	}
-}
+// //method properties
+// var e5Obj = {
+// 	foo: function(){console.log('foo')},
+// 	bar: function(){console.log('foo')}
+// }
 
-console.log(e6Obj);
+// console.log(e5Obj);
+
+// var Es6Obj = {
+// 	foo() {console.log('foo')},
+// 	bar() {console.log('bar')}
+// }
+
+// console.log(Es6Obj);

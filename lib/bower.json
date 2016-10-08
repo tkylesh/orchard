@@ -1,0 +1,23 @@
+{
+  "name": "orchard",
+  "description": "growing some trees",
+  "main": "javascripts/main.js",
+  "authors": [
+    "taylor shuff <tkylesh@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "trees"
+  ],
+  "homepage": "https://github.com/tkylesh/orchard",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
